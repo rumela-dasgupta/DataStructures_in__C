@@ -2,7 +2,7 @@
 #include<stdlib.h>
 typedef struct List{
     int key;
-    struct *next,*prev;
+    struct List *next,*prev;
 
 }NODE;
 NODE *head=NULL;
