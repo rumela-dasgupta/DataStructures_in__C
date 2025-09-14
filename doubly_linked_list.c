@@ -37,5 +37,5 @@ void insertPosition(int k,int pos){
     p->prev=q;
     p->next=q->next;
     p->next->prev=p;
-    q->next=p
+    q->next=p;
 }
