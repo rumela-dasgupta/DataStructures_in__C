@@ -35,7 +35,7 @@ void InsertPosition(int k,int pos){
     q->next=p;
 }
 void display(){
-    NODE *P=head;
+    NODE *p=head;
     while(p){
         printf("%d\t",p->key);
         p=p->next;
